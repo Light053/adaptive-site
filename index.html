@@ -3,194 +3,104 @@
 
 <head>
 	<meta charset="UTF-8">
-
-	<title>Learning Css and HTML</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>меню бурегр</title>
 	<link rel="stylesheet" href="Source/css/style.css" type="text/css">
 </head>
-<script src="main/main.js"></script>
+
 </head>
 
 <body>
 	<div class="wrapper">
-		<div class="content">
-			<div class="hi">
-				<div class="container">
-					<div class="hi__row">
-						<div class="hi__body">
-							<div class="hi__title">Привет, друг!</div>
-							<ul class="hi__list">
-								<li> У тебя все получится!</li>
-								<li>Никогда не сдавайся!</li>
-								<li>Сегодня ты уже знаешь больше чем вчера!</li>
-								<li>Спасибо тебе за поддержку!</li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/frilanser-po-jizni.png" alt="">
-						</div>
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"></a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
 					</div>
-				</div>
-			</div>
-			<div class="what">
-				<div class="container">
-					<div class="what__row">
-						<div class="what__img">
-							<img src="images/struct-flexbox.png" alt="">
-						</div>
-						<div class="what__body">
-							<div class="what__title title">
-								Что такое FlexBox?
-							</div>
-							<div class="what__text">
-								<p>Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для
-									родителя
-									flex-контейнера так и для его дочерних элементов flex-элементов.</p>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto=".page__section_1" href="#" class="menu__link">Раздел N1</a>
+							<li>
+							<li><a data-goto=".page__section_2" href="#" class="menu__link">Раздел N2</a>
+							<li>
+							<li><a data-goto=".page__section_3" href="#" class="menu__link">Раздел N3</a>
 
-								<p>Основным преимуществом гибкой FLEX разметки является возможность изменять
-									ширину/высоту
-									пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом
-									заполнить
-									доступное пространство flex-контейнера.</p>
-							</div>
-						</div>
-					</div>
+							<li>
+								<a class="menu__link" href="#">Страница N1</a>
+								<span class="menu__arow"></span>
+								<ul class="menu__sub-list">
+									<li>
+										<a class="menu__sub-link" href="#">Раздел страницы N1</a>
+									</li>
+									<li>
+										<a class="menu__sub-link" href="#">Раздел страницы N2</a>
+									</li>
+									<li>
+										<a class="menu__sub-link" href="#">Раздел страницы N3</a>
+									</li>
+								</ul>
+							</li>
+							<li><a class="menu__link" href="#">Страница N2</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
-			<div class="columns">
-				<div class="columns__title title">Колонки с flex-контейнерами</div>
-				<div class="container">
-					<div class="columns__row">
-						<div class="columns__colum">
-							<div class="column__item item">
-								<div class="item__row">
-									<div class="item__image">
-										<img src="/images/image.png" alt="">
-									</div>
-									<div class="item__body">
-										<div class="item__title">The description for the image</div>
-										<div class="item__text">
-											<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
-												vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam
-												animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="columns__colum">
-							<div class="column__item item">
-								<div class="item__row">
-									<div class="item__image">
-										<img src="/images/image.png" alt="">
-									</div>
-									<div class="item__body">
-										<div class="item__title">The description for the image</div>
-										<div class="item__text">
-											<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
-												vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam
-												animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="columns__colum">
-							<div class="column__item item">
-								<div class="item__row">
-									<div class="item__image">
-										<img src="/images/image.png" alt="">
-									</div>
-									<div class="item__body">
-										<div class="item__title">The description for the image</div>
-										<div class="item__text">
-											<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
-												vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam
-												animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="columns__colum">
-							<div class="column__item item">
-								<div class="item__row">
-									<div class="item__image">
-										<img src="/images/image.png" alt="">
-									</div>
-									<div class="item__body">
-										<div class="item__title">The description for the image</div>
-										<div class="item__text">
-											<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa
-												vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam
-												animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+		</header>
+		<main class="page">
+			<section class="page__section page__section_1">
+				<div class="page__title">
+					<h1>Отличная статья</h1>
 				</div>
-			</div>
-			<div class="vertical">
-				<div class="container">
-					<div class="vertical__title title">Вертикальное выравнивание</div>
-					<div class="vertical__body">
-						<div class="vertical__row">
-							<div class="vertical__column">
-								<div class="vertical__item">
-									<div class="vertical__subtitle">буду рад</div>
-									<div class="vertical__label">подписке</div>
-									<div class="vertical__text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing
-											elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis
-											consectetur.</p>
-									</div>
-									<a href="#" class="vertical__button">подписаться</a>
-								</div>
-							</div>
-							<div class="vertical__column">
-								<div class="vertical__item">
-									<div class="vertical__subtitle">буду рад</div>
-									<div class="vertical__label">лайку</div>
-									<div class="vertical__text">
-										<p>ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel,
-											eligendi illum, placeat quo vero reiciendis consectetur voluptatibus atque
-											et itaque, hic, deleniti. Sunt commodi tempora voluptatum dolorum.</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur
-											fugit vel, eligendi illum, placeat quo vero reiciendis consectetur tempora
-											voluptatum dolorum.</p>
-									</div>
-									<a href="#" class="vertical__button">подписаться</a>
-								</div>
-							</div>
-							<div class="vertical__column">
-								<div class="vertical__item">
-									<div class="vertical__subtitle">буду рад</div>
-									<div class="vertical__label">комментарию</div>
-									<div class="vertical__text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-											tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
-											ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-											facilisis.</p>
-									</div>
-									<a href="#" class="vertical__button">подписаться</a>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="page__text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
 				</div>
 
-			</div>
-		</div>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__row">
-					<div class="footer__text">Фрилансер по жизни 2019</div>
+			</section>
+			<section class="page__section page__section_2">
+				<div class="page__sub-title">
+					<h2>Отличный раздел сайта</h2>
 				</div>
-			</div>
-		</footer>
+				<div class="page__text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+				</div>
+
+			</section>
+			<section class="page__section page__section_3">
+				<div class="page__sub-title">
+					<h2>Отличная статья</h2>
+				</div>
+				<div class="page__text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate ipsa beatae obcaecati
+						vel quae illo optio hic cum maiores porro facilis consectetur!</p>
+				</div>
+
+			</section>
+		</main>
 	</div>
 
+	<script src="main/main.js"></script>
 </body>
 
 </html>
